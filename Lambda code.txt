@@ -1,6 +1,6 @@
 import boto3
 # change the region name below 
-region = 'us-west-2'
+region = 'us-east-1'
 #change the Instance ID 
 instances = ['i-085c72a9d7e12f6b7',]
 ec2 = boto3.client('ec2', region_name=region)
